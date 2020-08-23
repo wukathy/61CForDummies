@@ -2,21 +2,14 @@
 headless: true
 ---
 
-- [**Example Site**]({{< relref "/docs/example" >}})
-- [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
-  - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
-  - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
-- [Collapsed]({{< relref "/docs/example/collapsed" >}})
-  - [3rd]({{< relref "/docs/example/collapsed/3rd-level" >}})
-    - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
-<br />
+- [so you're 4 weeks behind...]({{< relref "/docs/example" >}})
 
-- **Shortcodes**
-- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
-- [Columns]({{< relref "/docs/shortcodes/columns" >}})
-- [Expand]({{< relref "/docs/shortcodes/expand" >}})
-- [Hints]({{< relref "/docs/shortcodes/hints" >}})
-- [Katex]({{< relref "/docs/shortcodes/katex" >}})
-- [Mermaid]({{< relref "/docs/shortcodes/mermaid" >}})
-- [Tabs]({{< relref "/docs/shortcodes/tabs" >}})
+- **topics you probably learned**
+- [Number Rep + Floating Point]({{< relref "/docs/shortcodes/number-rep" >}})
+- [C]({{< relref "/docs/shortcodes/columns" >}})
+- [CALL]({{< relref "/docs/shortcodes/expand" >}})
+- [RISC-V]({{< relref "/docs/shortcodes/hints" >}})
+- [Boolean Algebra]({{< relref "/docs/shortcodes/katex" >}})
+- [FSM]({{< relref "/docs/shortcodes/mermaid" >}})
+- [SDS]({{< relref "/docs/shortcodes/tabs" >}})
 <br />
