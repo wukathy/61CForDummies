@@ -2,7 +2,7 @@
 
 Know how to convert between binary/hex/decimal. It's probably second nature by this point so we didn't include it.
 
-![Unit conversions](/conversion.png)
+![Unit conversions](/images/conversion.png)
 
 ## Negative Numbers?
 
@@ -19,13 +19,13 @@ Know how to convert between binary/hex/decimal. It's probably second nature by t
 	- 00011 = +3 // Positive, same as unsigned
 	- 11101 = -3 // Flip bits and add 1 to get negative version
 
-![Number Rep Table](/reps.png)
+![Number Rep Table](/images/reps.png)
 
 ## Floating Point
 
 For standard (32-bit precision) floating point number: bias is **-127**. Add -127 to whatever the exponent is as an unsigned number.
 
-![Floating Point Table](/floatingpoint.png)
+![Floating Point Table](/images/floatingpoint.png)
 
 Bias: 2^(# of exponent bits - 1) - 1
 
@@ -40,7 +40,9 @@ same as _when does step size become greater than 4?_
 The minimum integer not representable is 2^(mantissa + 1) + 1 (step sizes will start to be greater than 1 in the least significant mantissa bit)
 {{< /expand >}}
 {{< expand "How do I figure out step size?">}}
-When moving by one step to the subsequent number, increment mantissa in the smallest place! Step size determined by exponent.
+**Main idea: limited number of steps between exponents. i.e., there are only 4 (arbitrary number) steps available between getting from 2^1 to 2^2 // 2^2 to 2^3 // so on and so forth, so floats get less precise the higher up you go.**
+- Multiply 2^(-mantissa)*2^(exp-bias) to find step size
+- When moving by one step to the subsequent number, increment mantissa in the smallest place! Step size determined by exponent. 
 {{< /expand >}}
 
 

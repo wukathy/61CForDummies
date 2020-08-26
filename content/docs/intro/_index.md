@@ -25,4 +25,4 @@ Unless otherwise noted, all content is taken directly from lecture slides, TA re
 
 ## The original confessions post, for posterity:
 
-![Origin image](/origin.png)
+![Origin image](/images/origin.png)

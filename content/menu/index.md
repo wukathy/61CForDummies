@@ -2,14 +2,15 @@
 headless: true
 ---
 
-- [so you're 4 weeks behind...]({{< relref "/docs/example" >}})
+- [so you're 4 weeks behind...]({{< relref "/docs/intro" >}})
 
 - **topics you probably learned**
-- [Number Rep + Floating Point]({{< relref "/docs/shortcodes/number-rep" >}})
-- [C]({{< relref "/docs/shortcodes/columns" >}})
-- [CALL]({{< relref "/docs/shortcodes/expand" >}})
-- [RISC-V]({{< relref "/docs/shortcodes/hints" >}})
-- [Boolean Algebra]({{< relref "/docs/shortcodes/katex" >}})
-- [FSM]({{< relref "/docs/shortcodes/mermaid" >}})
-- [SDS]({{< relref "/docs/shortcodes/tabs" >}})
+- [Number Rep + Floating Point]({{< relref "/docs/topics/number-rep" >}})
+- [C]({{< relref "/docs/topics/c" >}})
+- [CALL]({{< relref "/docs/topics/call" >}})
+- [RISC-V]({{< relref "/docs/topics/risc-v" >}})
+- [Boolean Algebra]({{< relref "/docs/topics/bool-alg" >}})
+- [FSM]({{< relref "/docs/topics/fsm" >}})
+- [SDS]({{< relref "/docs/topics/sds" >}})
+
 <br />
